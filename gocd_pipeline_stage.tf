@@ -28,8 +28,8 @@ resource "gocd_pipeline_stage" "build"
       "run_if": ["passed"],
       #"build_file": "https://af2e97f1cf2208929e480c3b3a28881d5c002c3e@github.com/Keshav-Rai001/terraform-with-gocd/blob/master/build.xml",
       #"target": "https://af2e97f1cf2208929e480c3b3a28881d5c002c3e@github.com/Keshav-Rai001/terraform-with-gocd/blob/master/helloWorld.java"
-      "command": "https://af2e97f1cf2208929e480c3b3a28881d5c002c3e@github.com/Keshav-Rai001/terraform-with-gocd/blob/master/hello"
-
+      "command": "python",
+      "arguments": ["https://af2e97f1cf2208929e480c3b3a28881d5c002c3e@github.com/Keshav-Rai001/terraform-with-gocd/blob/master/helloWorld.py"]
     }
   }
   ]
